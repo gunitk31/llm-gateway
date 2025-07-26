@@ -74,7 +74,7 @@ def main():
     index.add(embedding_matrix)
 
     # Save FAISS index and documents for persistence
-    faiss.write_index(index, "/home/sagemaker-user/llm-gateway/vectordb/faiss.index")
+    faiss.write_index(index, "/home/sagemaker-user/vectordb/faiss.index")
 
 
 if __name__ == "__main__":
